@@ -1,0 +1,15 @@
+# Finding Remainder
+a = 23
+b = a % 2
+print(b)
+
+# Finding Average
+a = int(input("Enter a Number: "))
+b = int(input("Enter another Number: "))
+average = (a+b) / 2
+print(average)
+
+# Calculating Square
+a = int(input("Enter a Number: "))
+Answer = a * a
+print("The Square of the Number is ",Answer)
