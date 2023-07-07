@@ -1,0 +1,18 @@
+# a = "Vatsal's"
+# a = 'Vatsal"s'
+a = '''Vatsal's and Vatsal"s'''
+print(a)
+print(type(a))
+
+name = 'Vatsal'
+
+# print(name[0]) Prints only First letter
+
+# print(name[0:4])
+
+# print(name[1:]) # is same as [1:5]
+
+# print(name[:4]) # is same as [0:4]
+
+name = "VatsalIsGood"
+print(name[0::3]) # Printing with skip values means it will skip 2 chars
