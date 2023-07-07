@@ -1,0 +1,15 @@
+story = "once there was a Coder named Vatsal and he was learning Python Programming from You Tube"
+
+# String Functions
+
+# print(len(story))
+
+# print(story.endswith("ashdgbah")) #Checks whether our story ends with mentioned characters or not
+
+# print(story.count("a")) #Counts total 'a' in our string
+
+print(story.capitalize())  # Capitalizes our first letter
+
+print(story.find("Vatsal"))  
+
+print(story.replace("Vatsal" , "CodeWithVatsal"))
