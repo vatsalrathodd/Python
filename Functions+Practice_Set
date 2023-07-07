@@ -1,0 +1,44 @@
+# Question-1
+
+# greeting = input("Enter your name: ")
+# print("Good Morning ," + greeting)
+
+#Question-2
+
+# letter = '''Dear <|Name|>
+# Greetings from AMAZON for being selected for AI- ML 
+# You are selected!
+
+# Date: <|Date|>
+# '''
+# name = input("Enter a Name: ")
+# date = input("Enter a date: ")
+
+# letter = letter.replace("<|Name|>",name)
+# letter = letter.replace("<|Date|>",date)
+
+# print(letter)
+
+
+# Question-3
+
+# st = "This sentence has double  spaces"
+# doubleSpaces = st.find("  ")
+# print(doubleSpaces)
+
+
+# Question - 4
+
+# st = "This sentence has double  spaces"
+# print(st)
+# singleSpaces = st.replace("  "," ")
+# print(singleSpaces)
+
+# Qusetion-5 
+
+letter = " Dear me , Nice to meet you"
+print(letter)
+
+formatted_letter = " Dear me ,\t Nice to meet you"
+print(formatted_letter)
+
