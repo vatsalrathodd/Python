@@ -1,0 +1,34 @@
+# List Slicing
+friends = ["Vatsal", "Vismit", "Bhavin", "Abhishek"]
+print(friends[0:2]) # Bhavin ni index 2 che so include nai thai ek colon ma
+
+print(friends[0::2]) # 2 colons skip mate use thase matlab Vismit Skip thai jase 
+
+#  List Methods
+
+l1 = [1, 2, 3, 4, 5, -10, 21, -100]
+print(l1)
+
+# After Sorting
+# l1.sort()
+# print(l1)
+
+# After Reversing
+# l1.reverse()
+# print(l1)
+
+# After Appending
+# l1.append(9987235)
+# print(l1)
+
+# After inserting at certain indexes
+# l1.insert(0,116)
+# print(l1)
+
+# After popping in bracket write the index of which number you want to pop
+# l1.pop(5)
+# print(l1)
+
+# After removing
+l1.remove(4)
+print(l1)
