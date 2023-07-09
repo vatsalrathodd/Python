@@ -1,0 +1,11 @@
+a = [1 , 2 , 3 , 4 , 5]
+
+# print(a)
+# print(a[1])
+
+b = [45, "Vatsal", False, 69.9]
+print(b)
+
+# Print list using for Loop
+for i in range(len(a)):
+    print (a[i])
