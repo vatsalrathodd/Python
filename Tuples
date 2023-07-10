@@ -1,0 +1,21 @@
+# The difference between list and Tuples is that you cannot update Tuples
+
+# Creating Tuple using ()
+t = (1,2,3,4,5)
+
+# Empty Tuple
+# t1 = ()
+# print(t1) 
+
+# Another way to write Empty Tuple
+t2 = (1,)  # Correct Way to write tuple
+t3 = (1)   # Wrong way. This represents only a number so comma is required
+print(t2)
+print(t3)
+
+# Printing Tuples
+# print(t)
+
+# Cannot update tuple value
+# t[0] = 100
+
