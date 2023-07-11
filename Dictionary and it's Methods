@@ -1,0 +1,50 @@
+# It creates a dictionary type of thing that are stored in curly braces and apde ene value assign kari shakie
+# On the left we have keyword and on the right we have their corresponding answer
+
+myDictionary = {
+    "Sports": "Cricket",
+    "Name": "My Name is Vatsal Rathod",
+    "Marks": "89,90,95",
+    "AnotherDictionary":{
+        "Surname": "Rathod",
+        "Fname": "Vatsal Rathod"
+    }
+}
+
+# print(myDictionary["Name"])
+# print(myDictionary["Marks"])
+# print(myDictionary)
+# print(type(myDictionary))
+
+#Type conversion from dictionary to List
+# print(list(myDictionary))
+
+# Can create nested dictionary too
+# print(myDictionary["AnotherDictionary"]["Fname"])
+
+
+# Dictionary Methods
+
+# print(list(myDictionary.keys()))
+# print(list(myDictionary.values()))
+# print(myDictionary.items())
+
+
+# print(myDictionary)
+newDict = {
+    "Cars": "Ford GT,Bugatti Chiron"
+}
+
+# Update ---> It updates the given Dictionary if we want to make any changes like we need to add new to the dictionary
+# myDictionary.update(newDict)
+# print(myDictionary)
+
+# Get Method
+
+# We can get values of sports using get and without using get too. But if we write something else for example
+# print(myDictionary.get("Sports"))
+# print(myDictionary["Sports"])
+
+# Now get method will not throw any error but the square method will throw error
+print(myDictionary.get("Sports2"))
+print(myDictionary["Sports2"])
