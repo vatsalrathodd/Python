@@ -1,0 +1,37 @@
+a = {1,2,3,4,5,5,4,3,2,1} # No repetition allowed
+print(type(a))
+print(a)
+
+# Empty Set
+# This will create empty Dictionary and not Empty Set
+a = {}
+print(type(a))
+
+# An empty Set can be created using this Syntax
+b = set()
+print(type(b))
+
+b = set()
+# print(type(b))
+# print(b)
+
+# Adding Elements in an Empty Set
+b.add(4)
+b.add(5)
+b.add(4)
+b.add(5)  # Adding a value repeatedly doesn't change a Set
+b.add((1,2,3))
+
+# print(b)
+
+# Length method to find length
+# print(len(b))
+
+# Removal of any item in set using remove
+# b.remove(4)
+# print(b)
+
+# Popping any element
+print(b)
+
+print(b.pop())
