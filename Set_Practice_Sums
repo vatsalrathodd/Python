@@ -1,0 +1,52 @@
+# Q1. 
+# hindiToeng = {
+#     "Bhindi" : "Lady's Finger",
+#     "Aloo" : "Potato",
+#     "Gadi": "Car"
+# }
+
+# print("Options are",hindiToeng.keys())
+# a = input("Enter a Hindi Word: ")
+# print("The English word is",hindiToeng.get(a))
+# Below line will not throw any error as Get method is used
+
+# Q2.
+# num1 = int(input("Enter number 1: "))
+# num2 = int(input("Enter number 2: "))
+# num3 = int(input("Enter number 3: "))
+# num4 = int(input("Enter number 4: "))
+# num5 = int(input("Enter number 5: "))
+# num6 = int(input("Enter number 6: "))
+# num7 = int(input("Enter number 7: "))
+# num8 = int(input("Enter number 8: "))
+# numbers = {num1, num2, num3, num4, num5, num6, num7, num8}
+
+# print(numbers)
+
+
+# Q3.
+# s = {18,"18"}
+# print(len(s))
+
+# Q4. 
+# s = set()
+# s.add(20)
+# s.add(20.0)
+# s.add("20")
+
+# print(s)
+# print(len(s))
+
+# Q6. 
+# favLangs = {}
+# f1 = input("Enter your favourite Language Vatsal: ")
+# f2 = input("Enter your favourite Language Vismit: ")
+# f3 = input("Enter your favourite Language Bhavin: ")
+# f4 = input("Enter your favourite Language Abhishek: ")
+
+# favLangs["Vatsal"] = f1
+# favLangs["Vismit"] = f2
+# favLangs["Bhavin"] = f3
+# favLangs["Abhishek"] = f4
+
+# print(favLangs)
