@@ -1,0 +1,9 @@
+# a = None
+
+# if(a is None):
+#     print("Yes")
+# else:
+#     print("No")
+
+a = [45,10,999]
+print(555 in a)
