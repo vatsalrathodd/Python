@@ -1,0 +1,47 @@
+name = input("Enter your name: ")
+length = len(name)
+
+if(length>=10):
+    print("It contains 10 characters or more than that")
+else:
+    print("It doesn't contain 10 chars.")
+
+names = ["vatsal", "madhav", "mihir", "harsh", 'dev']
+name = input("Enter your name: ")
+
+if name in names:
+    print("Your name is present in the list")
+else:
+    print("Your name is not present in the list")
+
+marks = int(input("Enter your marks: "))
+
+if(marks>90):
+    print("EXCELLENT !!")
+
+elif(90>=marks>=80):
+    print("A Grade")
+
+elif(80>=marks>=70):
+    print("B Grade")
+
+elif(70>=marks>=60):
+    print("C Grade")
+
+elif(60>=marks>=50):
+    print("D Grade")
+
+else:
+    print("F")
+
+name = input("Enter your name: ")
+find_name = "VATSAL"
+
+uppercase = name.upper()
+
+# print(uppercase)
+
+if uppercase in find_name:
+    print("Your name is found")
+else:
+    print("Your name is not found")
