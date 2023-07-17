@@ -1,0 +1,12 @@
+# for i in range(0,10):
+#     print("I am RICH !!!")
+
+fruits = ["Apple", "Banana", "Grapes", "Guava", "Raspberry"]
+
+for i in range(0,len(fruits)):
+    print(fruits[i])
+
+    ################## OR ##################
+
+for items in fruits:
+    print(items) 
