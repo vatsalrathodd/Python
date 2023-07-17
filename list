@@ -1,0 +1,10 @@
+fruits = ["Apple", "Banana", "Grapes", "Guava", "Raspberry"]
+i = 0
+
+print(len(fruits))
+
+length = len(fruits)
+
+while i < length:
+    print(fruits[i])
+    i = i + 1
